@@ -88,3 +88,15 @@ Bueno, la verdad es que lo hice así porque:
 - Quería que fuera fácil de entender y mantener
 - Necesitaba que fuera robusto para manejar diferentes tamaños de datos
 - Me gusta agregar validaciones extra para evitar problemas
+
+## Código Mejorado
+
+Además, creé un archivo adicional llamado `codigoMejorado.java` que cumple exactamente con todos los requisitos específicos:
+
+- **Acepta dos JTable objects** como parámetros (no OpenJVS Tables)
+- **Merge por índice de fila** (primera fila de A + primera fila de B, segunda fila de A + segunda fila de B)
+- **Retorna un DefaultTableModel** representando los datos combinados
+- **Valida rangos de índices** de columnas antes de procesar
+- **Maneja casos donde las tablas tienen diferentes números de filas** (se detiene en la más corta)
+- **Los nombres de columnas reflejan su origen** (prefijos A_ y B_)
+- **Usa Java Swing** (JTable/DefaultTableModel)
