@@ -1,8 +1,8 @@
-# MergeTables - Script de Juntar Tablas. En nuestro caso TABLA A y TABLA B
+# codigoTrabajadoEnEntrevista - Script de Juntar Tablas. En nuestro caso TABLA A y TABLA B
 
 ## ¿Qué hace este código?
 
-Bueno, este archivo `MergeTables.java` es básicamente un script que hice para juntar (merge) dos tablas de datos de clientes usando OpenJVS. La idea es tomar información de clientes que está separada en dos tablas diferentes y combinarla en una sola tabla más completa.
+Bueno, este archivo `codigoTrabajadoEnEntrevista.java` es básicamente un script que hice para juntar (merge) dos tablas de datos de clientes usando OpenJVS. La idea es tomar información de clientes que está separada en dos tablas diferentes y combinarla en una sola tabla más completa.
 
 ## La idea principal
 

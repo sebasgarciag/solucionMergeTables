@@ -1,7 +1,7 @@
 import com.olf.openjvs.*;
 import com.olf.openjvs.enums.*;
 
-public class MergeTables implements IScript {
+public class codigoTrabajadoEnEntrevista implements IScript {
     public void execute(IContainerContext context) throws OException {
         // Primero declaramos las tablas que vamos a utilizar mas adelante -> TABLA A Y TABLA B
         Table tableA = Util.NULL_TABLE;
